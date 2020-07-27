@@ -15,7 +15,7 @@ function App() {
       {/*<Greet name='srinivas' greet='Welcome'/>*/}
       {/*<Greet name='vobilineni' greet='well'/>*/}
       {/*class component*/}
-      <Welcome name='srini' greet='welcome'><p>this children</p></Welcome>
+      {/*<Welcome name='srini' greet='welcome'><p>this children</p></Welcome>*/}
       {/*<Welcome name='srinivas' greet='Welcome'/>*/}
       {/*<Welcome name='vobilineni' greet='well'/>*/}
       {/*<Hello/>*/}
