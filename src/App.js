@@ -13,11 +13,15 @@ import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
+import './appStyle.css';
+import styles from './appStyles.module.css';
 
 function App() {
   return (
     <div className="App">
       <h1>hello from app</h1>
+      {/*<h1 className='error'>error</h1>*/}
+      {/*<h1 className={styles.success}>success</h1>*/}
       {/*functional components*/}
       {/*<Greet name='srini' greet='welcome'> <p>this children</p></Greet>*/}
       {/*<Greet name='srinivas' greet='Welcome'/>*/}
@@ -36,7 +40,7 @@ function App() {
       {/*<UserGreeting />*/}
       {/*<NameList />*/}
       {/*<Stylesheet primary={true}/>*/}
-      <Inline/>
+      {/*<Inline primary={true}/>*/}
     </div>
   );
 }
