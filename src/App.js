@@ -15,6 +15,7 @@ import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
 import './appStyle.css';
 import styles from './appStyles.module.css';
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       {/*<NameList />*/}
       {/*<Stylesheet primary={true}/>*/}
       {/*<Inline primary={true}/>*/}
+      <Form/>
     </div>
   );
 }
