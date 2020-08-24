@@ -19,6 +19,11 @@ class Form extends Component {
     alert(`${this.state.userName} ${this.state.comments} ${this.state.topic}`);
     event.preventDefault()
   };
+  handleReset = () => {
+    this.setState({
+      userName: '', comments: '', topic: 'Angular'
+    })
+  };
 
   render() {
     const {userName, comments, topic} = this.state;
@@ -33,6 +38,7 @@ class Form extends Component {
         <option>JS</option>
       </select></div>
       <button type="submit">Submit</button>
+      <button type="reset" onClick={this.handleReset}>Submit</button>
     </form>)
   }
 }

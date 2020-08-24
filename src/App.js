@@ -17,6 +17,8 @@ import './appStyle.css';
 import styles from './appStyles.module.css';
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
+import FragmentDemo from "./components/Fragment/FragmentDemo";
+import Table from "./components/Fragment/Table";
 
 function App() {
   return (
@@ -44,7 +46,9 @@ function App() {
       {/*<Stylesheet primary={true}/>*/}
       {/*<Inline primary={true}/>*/}
       {/*<Form/>*/}
-      <LifeCycleA />
+      {/*<LifeCycleA />*/}
+      {/*<FragmentDemo />*/}
+      <Table />
     </div>
   );
 }
