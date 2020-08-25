@@ -16,7 +16,7 @@ import Inline from "./components/Inline";
 import './appStyle.css';
 import styles from './appStyles.module.css';
 import Form from "./components/Form";
-import LifeCycleA from "./components/LifeCycleA";
+import LifeCycleA from "./components/lifeCycles/LifeCycleA";
 import FragmentDemo from "./components/Fragment/FragmentDemo";
 import Table from "./components/Fragment/Table";
 
