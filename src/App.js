@@ -19,6 +19,13 @@ import Form from "./components/Form";
 import LifeCycleA from "./components/lifeCycles/LifeCycleA";
 import FragmentDemo from "./components/Fragment/FragmentDemo";
 import Table from "./components/Fragment/Table";
+import ParentComp from "./components/pureComponent/ParentComp";
+import RefsDemo from "./components/refs/RefsDemo";
+import FocusInput from "./components/refs/FocusInput";
+import FRParent from "./components/refs/FRParent";
+import PortalDemo from "./components/PortalDemo";
+import ErrorBoundary from "./components/lifeCycles/ErrorBoundary";
+import Hero from "./components/lifeCycles/Hero";
 
 function App() {
   return (
@@ -48,7 +55,15 @@ function App() {
       {/*<Form/>*/}
       {/*<LifeCycleA />*/}
       {/*<FragmentDemo />*/}
-      <Table />
+      {/*<Table />*/}
+      {/*<ParentComp />*/}
+      {/*<RefsDemo />*/}
+      {/*<FocusInput/>*/}
+      {/*<FRParent/>*/}
+      {/*<PortalDemo/>*/}
+      {/*<ErrorBoundary><Hero name='sri'/></ErrorBoundary>*/}
+      {/*<ErrorBoundary><Hero name='srini'/></ErrorBoundary>*/}
+      {/*<ErrorBoundary><Hero name='joker'/></ErrorBoundary>*/}
     </div>
   );
 }
