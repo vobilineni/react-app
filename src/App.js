@@ -28,6 +28,13 @@ import ErrorBoundary from "./components/lifeCycles/ErrorBoundary";
 import Hero from "./components/lifeCycles/Hero";
 import ClickCounter from "./components/higherOrderComponents/ClickCounter";
 import MouseOver from "./components/higherOrderComponents/MouseOver";
+import ClickCount from "./components/renderProps/ClickCount";
+import MouseCount from "./components/renderProps/MouseCount";
+import User from "./components/renderProps/User";
+import RenderPropCounter from "./components/renderProps/RenderPropCounter";
+import ComponentE from "./components/context/ComponentE";
+import ComponentC from "./components/context/ComponentC";
+import {UserProvider} from "./components/context/userContext";
 
 function App() {
   return (
@@ -66,8 +73,17 @@ function App() {
       {/*<ErrorBoundary><Hero name='sri'/></ErrorBoundary>*/}
       {/*<ErrorBoundary><Hero name='srini'/></ErrorBoundary>*/}
       {/*<ErrorBoundary><Hero name='joker'/></ErrorBoundary>*/}
-      <ClickCounter/>
-      <MouseOver/>
+      {/*<ClickCounter/>*/}
+      {/*<MouseOver/>*/}
+      {/*<ClickCount/>*/}
+      {/*<MouseCount/>*/}
+      {/*<User render={(isLoggedIn) => isLoggedIn ? 'srini' : 'guest'}/>*/}
+      {/*<RenderPropCounter render={(count, countHandler) => (<ClickCount count={count} countHandler={countHandler}/>)}/>*/}
+      {/*<RenderPropCounter render={(count, countHandler) => (<MouseCount count={count} countHandler={countHandler}/>)}/>*/}
+      {/*passing as children*/}
+      {/*<RenderPropCounter>{(count, countHandler) => (<ClickCount count={count} countHandler={countHandler}/>)}</RenderPropCounter>*/}
+      {/*<RenderPropCounter>{(count, countHandler) => (<MouseCount count={count} countHandler={countHandler}/>)}</RenderPropCounter>*/}
+      {/*<UserProvider value='srini'><ComponentC/></UserProvider>*/}
     </div>
   );
 }
