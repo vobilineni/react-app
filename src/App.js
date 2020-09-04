@@ -35,6 +35,8 @@ import RenderPropCounter from "./components/renderProps/RenderPropCounter";
 import ComponentE from "./components/context/ComponentE";
 import ComponentC from "./components/context/ComponentC";
 import {UserProvider} from "./components/context/userContext";
+import PostList from "./components/http/PostList";
+import PostForm from "./components/http/PostForm";
 
 function App() {
   return (
@@ -84,6 +86,8 @@ function App() {
       {/*<RenderPropCounter>{(count, countHandler) => (<ClickCount count={count} countHandler={countHandler}/>)}</RenderPropCounter>*/}
       {/*<RenderPropCounter>{(count, countHandler) => (<MouseCount count={count} countHandler={countHandler}/>)}</RenderPropCounter>*/}
       {/*<UserProvider value='srini'><ComponentC/></UserProvider>*/}
+      {/*<PostList/>*/}
+      {/*<PostForm/>*/}
     </div>
   );
 }
