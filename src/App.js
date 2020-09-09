@@ -37,6 +37,10 @@ import ComponentC from "./components/context/ComponentC";
 import {UserProvider} from "./components/context/userContext";
 import PostList from "./components/http/PostList";
 import PostForm from "./components/http/PostForm";
+import ClassCounter from "./components/hooks/ClassCounter";
+import HookCounter from "./components/hooks/HookCounter";
+import HookCounterTwo from "./components/hooks/HookCounterTwo";
+import HookCounterThree from "./components/hooks/HookCounterThree";
 
 function App() {
   return (
@@ -88,6 +92,11 @@ function App() {
       {/*<UserProvider value='srini'><ComponentC/></UserProvider>*/}
       {/*<PostList/>*/}
       {/*<PostForm/>*/}
+      {/***************Hooks*************/}
+      {/*<ClassCounter/>*/}
+      {/*<HookCounter />*/}
+      {/*<HookCounterTwo/>*/}
+      {/*<HookCounterThree/>*/}
     </div>
   );
 }
