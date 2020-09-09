@@ -11,6 +11,7 @@ function HookCounterThree() {
         <h2>your first name is - {name.firstName}</h2>
         <h2>your last name is - {name.lastName}</h2>
         <h2>{JSON.stringify(name)}</h2>
+        <button onClick={() => setName(initialState)}>Reset</button>
       </form>
     </div>
   )
