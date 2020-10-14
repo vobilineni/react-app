@@ -37,11 +37,16 @@ import ComponentC from "./components/context/ComponentC";
 import {UserProvider} from "./components/context/userContext";
 import PostList from "./components/http/PostList";
 import PostForm from "./components/http/PostForm";
-import ClassCounter from "./components/hooks/ClassCounter";
-import HookCounter from "./components/hooks/HookCounter";
-import HookCounterTwo from "./components/hooks/HookCounterTwo";
-import HookCounterThree from "./components/hooks/HookCounterThree";
-import HookCounterFour from "./components/hooks/HookCounterFour";
+import ClassCounter from "./components/hooks/useState/ClassCounter";
+import HookCounter from "./components/hooks/useState/HookCounter";
+import HookCounterTwo from "./components/hooks/useState/HookCounterTwo";
+import HookCounterThree from "./components/hooks/useState/HookCounterThree";
+import HookCounterFour from "./components/hooks/useState/HookCounterFour";
+import ClassCounterOne from "./components/hooks/useEffect/ClassCounterOne";
+import UseEffectHook from "./components/hooks/useEffect/UseEffectHook";
+import ClassMouse from "./components/hooks/useEffect/ClassMouse";
+import HookMouse from "./components/hooks/useEffect/HookMouse";
+import MouseContainer from "./components/hooks/useEffect/MouseContainer";
 
 function App() {
   return (
@@ -99,6 +104,11 @@ function App() {
       {/*<HookCounterTwo/>*/}
       {/*<HookCounterThree/>*/}
       {/*<HookCounterFour/>*/}
+      {/*<ClassCounterOne />*/}
+      {/*<UseEffectHook />*/}
+      {/*<ClassMouse />*/}
+      {/*<HookMouse />*/}
+      <MouseContainer />
     </div>
   );
 }
