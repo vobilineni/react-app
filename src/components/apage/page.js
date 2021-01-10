@@ -27,7 +27,7 @@ class Page extends React.Component {
           <div className="unit">
             <h5>Rollup</h5>
             <div className="unit-label">
-              <h6 className="unit-label">Worldwide</h6>
+              <div><input type="checkbox" id="hello2" name="hello2" value="hello2"/><label className="unit-label">Worldwide</label></div>
               <div className="unit-label">
                 <div className="unit-label"><input type="checkbox" id="hello" name="hello" value="hello"/><label
                   className="unit-label">India</label></div>
