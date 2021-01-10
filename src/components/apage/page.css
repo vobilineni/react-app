@@ -1,0 +1,25 @@
+.left-page {
+    margin: 15px 10px;
+    width: 200px;
+    overflow: auto;
+    padding-left: 15px;
+}
+
+.label {
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.unit-label {
+    padding-left: 10px;
+}
+.unit {
+    text-align: left;
+}
+
+.grid {
+    margin-left: 220px;
+    margin-top: -352px;
+}
+

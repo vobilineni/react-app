@@ -50,6 +50,8 @@ import MouseContainer from "./components/hooks/useEffect/MouseContainer";
 import IntervalClassCounter from "./components/hooks/useEffect/IntervalClassCounter";
 import IntervalHookCounter from "./components/hooks/useEffect/IntervalHookCounter";
 import DataFetching from "./components/hooks/http/DataFetching";
+import AgGrid from "./components/agGrid/AgGrid";
+import Page from "./components/apage/page";
 
 function App() {
   return (
@@ -115,6 +117,7 @@ function App() {
       {/*<IntervalClassCounter/>*/}
       {/*<IntervalHookCounter/>*/}
       {/*<DataFetching/>*/}
+      <Page/>
     </div>
   );
 }
